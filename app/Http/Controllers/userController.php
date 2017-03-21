@@ -104,7 +104,7 @@ class userController extends Controller
         if(Auth::attempt(['email'=>$email, 'password'=>$password])){
             return view('crearNotas');
         }else{
-            return redirect()->route('inicio')->withErrors('login incorrecto');
+            return view('welcome');
         }
     }
 
