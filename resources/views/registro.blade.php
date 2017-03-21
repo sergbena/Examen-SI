@@ -5,7 +5,7 @@
       <form class="form-horizontal" method="post" action="registrar">
         
         <div class="form-group">
-          <label for="inputEmail" class="col-sm-2 control-label">Email address</label>
+          <label for="" class="col-sm-2 control-label">Email address</label>
           <div class="col-sm-10">
             <input type="email" name="email" class="form-control" placeholder="Email address" required autofocus>
           </div>
@@ -40,15 +40,15 @@
           </div>
         </div>
         
-        <div class="checkbox">
+        <div class="checkbox col-sm-offset-2">
           <label>
             <input type="checkbox" value="acepto"> Acepto <blue>terminos y condiciones</blue>
           </label>
         </div>
         <div class="form-group">
-          <div class="col-sm-2">
-          <button class="btn btn-lg btn-primary btn-block" type="submit">Enviar</button>
-          <button class="btn btn-lg btn-block">Limpiar</button>
+          <div class="col-sm-offset-2">
+          <button class="btn  btn-primary" type="submit">Enviar</button>
+          <button class="btn ">Limpiar</button>
           </div>
           
         </div>
